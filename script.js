@@ -24,7 +24,6 @@ form_element.addEventListener("submit", (e) => {
     }
     return;
   }
-  e.target[0].style.borderColor = "inherit";
   table_body.innerHTML += `<tr>
           <td>${e.target[0].value}</td>
           <td>${e.target[1].value}</td>
